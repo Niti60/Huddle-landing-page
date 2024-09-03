@@ -1,0 +1,363 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+.attribution {
+     font-size: 11px; text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+ * {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family: sans-serif;
+ }
+ 
+ html,body{
+ width:100%;
+ height:100%
+ }
+ .msg{
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: fit-content;
+ }
+.free{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: transparent;
+    font-size: 16px;
+    color: hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 15px;
+    box-shadow: -2px 1px;
+}
+.free:hover{
+    color: hsl(321, 100%, 78%);
+}
+.button{
+    position: absolute;
+    right: 1%;
+    margin-top: 2%;
+    height: 40px;
+    width: 100px;
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.moto{
+    text-align: center;
+    font-size: 30px;
+    color: hsl(192, 100%, 9%);
+    font-weight: 900;
+    margin-top: 6%;
+}
+.para{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+    color: hsl(192, 100%, 9%);
+    font-weight: 100;
+}
+.start{
+    text-decoration: none;
+    margin-top: 5%;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    height: 50px;
+    width: 300px;
+    border: none;
+    font-size: 18px;
+    border-radius: 40px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.start:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+.ss{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.mockup{
+text-align: center;
+margin-top: 5%;
+}
+.mockup img{
+    height: 400px;
+    width: 700px
+}
+.ico{
+display: flex;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+height: 200px;
+width: 200px;
+position: relative;
+align-items: center;
+justify-content: center;
+}
+.data{
+    color: grey;
+    margin-left: 8%;
+    font-size: 12px;
+}
+.ico img{
+    height: 30px;
+    width: 30px;
+    margin-right: 30%;
+}               
+.comm{
+    display: flex;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 7%;
+    color: hsl(192, 100%, 9%);
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grow{
+    height: 600px;
+    width: 100%;
+    background-color: hsl(207, 100%, 98%);
+    position: relative;
+}
+.grow img{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    right: 15%;
+}
+.img2{
+    height: 150px;
+    width: 100%;
+}
+.img2 img{
+    height: 150px;
+    width: 100%;
+}
+.img3{
+    height: 150px;
+    width: 100%;
+}
+.img3 img{
+    height: 150px;
+    width: 100%;
+}
+.grow img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 50px;
+}
+.paragrow{
+    color: hsl(192, 100%, 9%);
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.groww{
+    font-size: 18px;
+    color: hsl(192, 100%, 9%);
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+.convo{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 10%;
+}
+.convo img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 15%;
+}
+.convo h1{
+    color: hsl(192, 100%, 9%);
+    font-size: 40px;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+.convo p{
+    font-size: 16px;
+    color: hsl(192, 100%, 9%);
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+.container{
+    margin-top: 5%;
+}
+.ready{
+    height: 200px;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+.ready h1{
+    color: hsl(192, 100%, 9%);
+    font-size: 30px;
+}
+.foot2 img{
+    height: 200px;
+    width: 100%;
+}
+.foot{
+    background-color: hsl(192, 100%, 9%);
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    left: 10%;
+    top:10%;
+    width: 70px;
+    height: 70px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.p1{
+    position: absolute;
+    font-size: 14px;
+    display: flex;
+    color: white;
+    left: 10%;
+    top:30%;
+}
+.phone{
+    position: absolute;
+    display: flex;
+    color: white;
+    left: 10%;
+    top:55%;
+}
+.p2{
+    position: absolute;
+    display: flex;
+    color: white;
+    left: 12%;
+    top:55%;
+}
+.email{
+    position: absolute;
+    display: flex;
+    color: white;
+    left: 10%;
+    top:65%;
+}
+.p3{
+    position: absolute;
+    display: flex;
+    color: white;
+    left: 12%;
+    top:65%;
+}
+.social img{
+    height: 25px;
+    width: 25px;
+}
+.social{
+    display: flex;
+    gap: 15%;
+    position: absolute;
+    left: 12%;
+    top:75%;
+}
+.news h1{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: 25%;
+    top: 15%;
+}
+.news p{
+    color: white;
+    position: absolute;
+    right: 17.5%;
+    top: 25%;
+    font-size: 12px;
+    font-weight: 400;
+}
+.news textarea{
+    border-radius: 5px;
+    border: none;
+    resize:none;
+    position: absolute;
+    right: 18%;
+    top: 45%;
+}
+.news button{
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    position: absolute;
+    right: 5%;
+    top: 45%;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+.news button:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+/* Media queries */
+@media(max-width:800px){
+    .moto{
+        margin-top: 10%;
+        flex-wrap: wrap;
+    }
+    .para{
+        margin-bottom: 10%;
+        
+    }
+    .mockup img{
+        height: 450px;
+        width: 650px;
+        margin-top: 15%;
+    }
+    .con{
+        flex-direction: column;
+        row-gap: 15%;
+    }
+    .grow img{
+        height: 400px;
+        width:450px;
+    }
+    .groww{
+        margin-top: 37%;
+        
+    }
+    .paragrow{
+        margin-top: 35%;
+        
+    }
+}
